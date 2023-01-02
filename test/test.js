@@ -19,10 +19,11 @@ myDB.create("mohaimin18", 10);
 myDB.create("mohaimin19", 10);
 myDB.create("mohaimin20", 10);
 
-const tic = myDB.find();
-console.log(tic);
-// const bulk = myDB.bulkCreate("mohaimin", 20, 3);
-// console.log("bulk", bulk);
+// const tic = myDB.find();
+// console.log('ticket_______',tic);
 
-const winners = myDB.drawWinners(3, tic);
-console.log("winner___________", winners);
+const bulk = myDB.bulkCreate("mohaimin", 20, 3);
+console.log("bulk__________", bulk);
+
+// const winners = myDB.drawWinners(3, tic);
+// console.log("winner___________", winners);

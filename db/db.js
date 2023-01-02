@@ -31,6 +31,7 @@ class MyDB {
       const ticket = this.create(username, price);
       result.push(ticket);
     }
+    return result;
   }
 
   //return all tickets
